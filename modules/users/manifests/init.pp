@@ -37,7 +37,7 @@
 #
 class users {
       
-      user { 'jmaulaz':
+      user { 'toto':
         ensure => present,
         gid    => 'apache',
       }
